@@ -9,7 +9,7 @@ Docker image with fuchsia SDK
 
 ```json
 {
-    "image": "kos-docker.artifacts.avp.ru/asapelkin/fuchsia:latest",
+    "image": "asapelkin/fuchsia:latest",
     
     "remoteUser": "user",
     "customizations": {
