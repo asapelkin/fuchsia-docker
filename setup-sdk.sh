@@ -10,7 +10,7 @@ tools/bazel build @fuchsia_sdk//:fuchsia_toolchain_sdk
 echo "SDK Version:"
 tools/ffx sdk version
 
-tools/bazel run products/reference:reference.vim3.flash
+tools/bazel build products/reference:reference.x64.emu
 
 # it's take longer to start emulator without kvm acceleration
 tools/ffx config set emu.start.timeout 400
